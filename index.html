@@ -3,50 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#08080a">
 <meta property="og:title" content="Pandu Hub">
 <meta property="og:description" content="Script hub untuk Roblox. Akses via key.">
 <title>Pandu Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="noise"></div>
+<div class="ambient-light"></div>
+
 <div class="bubbles">
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
+  <div class="bubble b1"></div>
+  <div class="bubble b2"></div>
+  <div class="bubble b3"></div>
+  <div class="bubble b4"></div>
+  <div class="bubble b5"></div>
 </div>
 
 <header class="top">
   <a class="brand" href="/">pandu<span>hub</span></a>
   <nav>
-    <a href="https://discord.gg/kYPJVh349a" target="_blank" rel="noopener">discord</a>
+    <a href="https://discord.gg/kYPJVh349a" target="_blank" rel="noopener" class="nav-link">discord</a>
   </nav>
 </header>
 
 <main>
   <section class="intro">
-    <p class="eyebrow">status: online</p>
-    <h1>Script Pandu <span>#Ontop.</span></h1>
-    <p>Loader ringan, update langsung dari server. Beli key, masukin, jalan.</p>
+    <div class="badge">
+      <span class="dot"></span>
+      All systems operational
+    </div>
+    
+    <h1>Script Pandu <br><span class="gradient-text">#Ontop.</span></h1>
+    
+    <p class="desc">
+      Loader ultra-ringan dengan update real-time langsung dari server. 
+      
+    </p>
+    
     <div class="actions">
-      <a class="cta" href="https://wa.me/6287785266714" target="_blank" rel="noopener">Buy Key</a>
-      <a class="ghost" href="https://discord.gg/kYPJVh349a" target="_blank" rel="noopener">Cek Status</a>
+      <a class="btn btn-primary" href="https://wa.me/6287785266714" target="_blank" rel="noopener">
+        <span>Buy Key</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a class="btn btn-secondary" href="https://discord.gg/kYPJVh349a" target="_blank" rel="noopener">
+        Cek Status
+      </a>
     </div>
   </section>
 
   <section class="stats">
-    <div><strong>24/7</strong><span>uptime</span></div>
-    <div><strong>&lt;2s</strong><span>load time</span></div>
-    <div><strong>v1.0</strong><span>build</span></div>
+    <div class="stat-item">
+      <span class="label">Uptime</span>
+      <strong>24/7</strong>
+      <span class="sub">Reliability</span>
+    </div>
+    <div class="stat-item">
+      <span class="label">Load Time</span>
+      <strong>&lt;2s</strong>
+      <span class="sub">Optimized</span>
+    </div>
+    <div class="stat-item">
+      <span class="label">Version</span>
+      <strong>v1.0</strong>
+      <span class="sub">Latest build</span>
+    </div>
   </section>
 </main>
 
 <footer>
-  <span>&copy; 2026 pandu hub</span>
-  <a href="https://discord.gg/kYPJVh349a" target="_blank" rel="noopener">support</a>
+  <div class="footer-left">
+    <span class="brand-sm">panduhub</span>
+    <span class="copyright">&copy; 2026</span>
+  </div>
+  <a href="https://wa.me/6287785266714" target="_blank" rel="noopener" class="footer-link">support</a>
 </footer>
+
 </body>
 </html>
